@@ -15,9 +15,9 @@ def vender_boletas():
             
         try:
             precio = peliculas[opcion]
-            cant = int(input("¿Cuántas Boletas quieres?: "))
+            cantidad = int(input("¿Cuántas Boletas quieres?: "))
             
-            total = cant * precio
+            total = cantidad * precio
             print(f"Total a pagar: ${total} pesitos ")
             
             historial.append(total)
